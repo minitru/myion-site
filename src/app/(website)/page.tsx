@@ -3,7 +3,6 @@ import { HeroSection } from './hero-section'
 import { HowItWorksSection } from './how-it-works-section'
 import { FinalCTASection } from './final-cta-section'
 import type { Metadata } from 'next'
-import { AboutMeSection } from './about-me-section'
 
 export const metadata: Metadata = {
   title: 'Myion | Media Platform',
@@ -24,7 +23,6 @@ export default function LandingPage() {
       <HeroSection />
       <HowItWorksSection />
       <FAQSection />
-      <AboutMeSection />
       <FinalCTASection />
     </>
   )
