@@ -14,7 +14,8 @@
     "seed": "NODE_ENV=development prisma db seed",
     "migrate": "prisma migrate dev",
     "postinstall": "prisma generate",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next build"
   },
   "dependencies": {
     "@ai-sdk/google-vertex": "^2.1.2",
