@@ -22,9 +22,8 @@ export function NavBar() {
 
       {/* Links in bigger screens */}
       <div className='hidden gap-4 sm:flex sm:gap-6'>
-        <NavLinkItem href='/coming-soon' label='Features' />
+        <NavLinkItem href='/faq' label='FAQ' />
         <NavLinkItem href='/coming-soon' label='Pricing' />
-        <NavLinkItem href='/coming-soon' label='Contact' variant='outline' />
       </div>
 
       {/* Links in smaller screens */}
